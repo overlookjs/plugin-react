@@ -1,8 +1,7 @@
 [![NPM version](https://img.shields.io/npm/v/@overlook/plugin-react.svg)](https://www.npmjs.com/package/@overlook/plugin-react)
-[![Build Status](https://img.shields.io/travis/overlookjs/plugin-react/master.svg)](http://travis-ci.org/overlookjs/plugin-react)
+[![Build Status](https://img.shields.io/travis/overlookjs/plugin-react/master.svg)](https://travis-ci.org/overlookjs/plugin-react)
 [![Dependency Status](https://img.shields.io/david/overlookjs/plugin-react.svg)](https://david-dm.org/overlookjs/plugin-react)
 [![Dev dependency Status](https://img.shields.io/david/dev/overlookjs/plugin-react.svg)](https://david-dm.org/overlookjs/plugin-react)
-[![Greenkeeper badge](https://badges.greenkeeper.io/overlookjs/plugin-react.svg)](https://greenkeeper.io/)
 [![Coverage Status](https://img.shields.io/coveralls/overlookjs/plugin-react/master.svg)](https://coveralls.io/r/overlookjs/plugin-react)
 
 # Overlook framework React plugin
