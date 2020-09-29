@@ -15,7 +15,7 @@ require('./support/index.js');
 
 // Tests
 
-describe('Plugin', () => { // eslint-disable-line jest/lowercase-name
+describe('Plugin', () => {
 	it('is an instance of Plugin class', () => {
 		expect(reactPlugin).toBeInstanceOf(Plugin);
 	});
