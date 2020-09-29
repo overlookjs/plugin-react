@@ -1,6 +1,6 @@
 {
   "name": "@overlook/plugin-react",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Overlook framework React plugin",
   "main": "index.js",
   "module": "es/index.js",
@@ -9,9 +9,11 @@
       "import": "./es/index.js",
       "require": "./index.js"
     },
-    "./es": "./es/index.js"
+    "./es": "./es/index.js",
+    "./react": "./react.js"
   },
   "files": [
+    "react.js",
     "lib/**/*.js",
     "es/**/*.js"
   ],
@@ -27,10 +29,14 @@
     "url": "https://github.com/overlookjs/plugin-react/issues"
   },
   "dependencies": {
-    "@overlook/plugin": "^0.4.1"
+    "@overlook/plugin": "^0.4.1",
+    "@overlook/plugin-load": "^0.4.4",
+    "@overlook/plugin-path": "^0.8.3",
+    "@overlook/route": "^0.6.5",
+    "@overlook/util-find-parent": "^0.1.0",
+    "react": "^16.13.1"
   },
   "devDependencies": {
-    "@overlook/route": "^0.6.5",
     "@overlookmotel/eslint-config": "^7.2.1",
     "@overlookmotel/eslint-config-jest": "^4.1.1",
     "@overlookmotel/eslint-config-node": "^2.1.2",
