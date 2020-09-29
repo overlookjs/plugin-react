@@ -10,5 +10,7 @@ import reactPlugin from '../lib/index.js';
 
 export default reactPlugin;
 export const {
-	TEMP
+	REACT_FILE,
+	GET_REACT_FILE,
+	REACT_ROOT
 } = reactPlugin;

@@ -11,17 +11,11 @@
 // Exports
 
 module.exports = function itExports(reactPlugin) {
-	describe.skip('methods', () => { // eslint-disable-line jest/no-disabled-tests
-		it.each([
-			'TEMP'
-		])('%s', (key) => {
-			expect(reactPlugin[key]).toBeFunction();
-		});
-	});
-
 	describe('symbols', () => {
 		it.each([
-			'TEMP'
+			'REACT_FILE',
+			'GET_REACT_FILE',
+			'REACT_ROOT'
 		])('%s', (key) => {
 			expect(typeof reactPlugin[key]).toBe('symbol');
 		});
