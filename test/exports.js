@@ -15,7 +15,9 @@ module.exports = function itExports(reactPlugin) {
 		it.each([
 			'REACT_FILE',
 			'GET_REACT_FILE',
-			'REACT_ROOT'
+			'REACT_ROOT',
+			'REACT_ROUTER',
+			'REACT_ROUTER_ADD_ROUTE'
 		])('%s', (key) => {
 			expect(typeof reactPlugin[key]).toBe('symbol');
 		});
