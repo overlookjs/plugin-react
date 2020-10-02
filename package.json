@@ -35,6 +35,7 @@
     "@overlook/plugin-path": "^0.8.3",
     "@overlook/route": "^0.6.5",
     "@overlook/util-find-parent": "^0.1.0",
+    "is-it-type": "^5.0.0",
     "react": "^16.13.1",
     "simple-invariant": "^2.0.0"
   },
