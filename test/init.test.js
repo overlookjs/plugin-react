@@ -72,16 +72,13 @@ describe('Init', () => {
 	});
 
 	describe('determines `[IS_LAZY]`', () => {
-		it(
-			'from `[GET_IS_LAZY]()` if `[IS_LAZY]` undefined',
-			async () => {
-				const route = new ReactRoute();
-				route[REACT_ROOT] = route;
-				route[GET_IS_LAZY] = () => false;
-				await route.init();
-				expect(route[IS_LAZY]).toBe(false);
-			}
-		);
+		it('from `[GET_IS_LAZY]()` if `[IS_LAZY]` undefined', async () => {
+			const route = new ReactRoute();
+			route[REACT_ROOT] = route;
+			route[GET_IS_LAZY] = () => false;
+			await route.init();
+			expect(route[IS_LAZY]).toBe(false);
+		});
 
 		it('does not call `[GET_IS_LAZY]()` if `[IS_LAZY]` defined', async () => {
 			const route = new ReactRoute();
